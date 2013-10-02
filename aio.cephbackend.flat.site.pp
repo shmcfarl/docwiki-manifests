@@ -96,7 +96,7 @@ $cobbler_proxy          = "http://${cobbler_node_ip}:3142/"
 #
 $admin_user             = 'localadmin'
 $password_crypted       = '$6$UfgWxrIv$k4KfzAEMqMg.fppmSOTd0usI4j6gfjs0962.JXsoJRWa5wMz8yQk4SfInn4.WZ3L/MCt5u.62tHDGB36EhiKF1'
-$autostart_puppet       = false
+$autostart_puppet       = true
 
 # If the setup uses the UCS B-series blades, enter the port on which the
 # ucsm accepts requests. By default the UCSM is enabled to accept requests
